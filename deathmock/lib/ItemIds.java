@@ -2,21 +2,48 @@ package com.tempestgamers.deathmock.lib;
 
 public class ItemIds {
 	private static final int ITEMINDEX = 5000;
-	public static final int ITEMMAIDHAT = ITEMINDEX + 1;
-	public static final int ITEMMAIDTOP = ITEMINDEX + 2;
-	public static final int ITEMMAIDLEGS = ITEMINDEX + 3;
-	public static final int ITEMMAIDSOCKS = ITEMINDEX + 4;
-	public static final int ITEMHEROHAT = ITEMINDEX + 5;
-	public static final int ITEMHEROTOP = ITEMINDEX + 6;
-	public static final int ITEMHEROLEGS = ITEMINDEX + 7;
-	public static final int ITEMHEROBOOTS = ITEMINDEX + 8;
-	public static final int ITEMMARIOHAT = ITEMINDEX + 9;
-	public static final int ITEMMARIOTOP = ITEMINDEX + 10;
-	public static final int ITEMMARIOLEGS = ITEMINDEX + 11;
-	public static final int ITEMMARIOBOOTS = ITEMINDEX + 12;
-	public static final int ITEMSTONESCYTHE = ITEMINDEX + 13;
-	public static final int ITEMSTAFFWATER = ITEMINDEX + 14;
+	//clothing
+	public static final int ITEMMAIDHAT = ITEMINDEX + Sprites.MAIDOUTFITHAT;
+	public static final int ITEMMAIDTOP = ITEMINDEX + Sprites.MAIDOUTFITTOP;
+	public static final int ITEMMAIDLEGS = ITEMINDEX + Sprites.MAIDOUTFITPANTS;
+	public static final int ITEMMAIDSOCKS = ITEMINDEX + Sprites.MAIDOUTFITBOOTS;
+	public static final int ITEMHEROHAT = ITEMINDEX + Sprites.HEROOUTFITHAT;
+	public static final int ITEMHEROTOP = ITEMINDEX + Sprites.HEROOUTFITTOP;
+	public static final int ITEMHEROLEGS = ITEMINDEX + Sprites.HEROOUTFITPANTS;
+	public static final int ITEMHEROBOOTS = ITEMINDEX + Sprites.HEROOUTFITBOOTS;
+	public static final int ITEMMARIOHAT = ITEMINDEX + Sprites.MARIOOUTFITHAT;
+	public static final int ITEMMARIOTOP = ITEMINDEX + Sprites.MARIOOUTFITTOP;
+	public static final int ITEMMARIOLEGS = ITEMINDEX + Sprites.MARIOOUTFITPANTS;
+	public static final int ITEMMARIOBOOTS = ITEMINDEX + Sprites.MARIOOUTFITBOOTS;
+	//scythes
+	public static final int ITEMWEAPONSCYTHESTONE = ITEMINDEX + Sprites.ITEMWEAPONSCYTHESTONE;
+	public static final int ITEMWEAPONSCYTHEMARBLE = ITEMINDEX + Sprites.ITEMWEAPONSCYTHEMARBLE;
+	public static final int ITEMWEAPONSCYTHEBASALT = ITEMINDEX + Sprites.ITEMWEAPONSCYTHEBASALT;
+	public static final int ITEMWEAPONSCYTHECOPPER= ITEMINDEX + Sprites.ITEMWEAPONSCYTHECOPPER;
+	public static final int ITEMWEAPONSCYTHEIRON = ITEMINDEX + Sprites.ITEMWEAPONSCYTHEIRON;
+	public static final int ITEMWEAPONSCYTHEGOLD = ITEMINDEX + Sprites.ITEMWEAPONSCYTHEGOLD;
+	public static final int ITEMWEAPONSCYTHEDIAMOND = ITEMINDEX + Sprites.ITEMWEAPONSCYTHEDIAMOND;
+	public static final int ITEMWEAPONSCYTHEENDER = ITEMINDEX + Sprites.ITEMWEAPONSCYTHEENDER;
+	public static final int ITEMWEAPONSCYTHESAPHIRE = ITEMINDEX + Sprites.ITEMWEAPONSCYTHESAPHIRE;
+	public static final int ITEMWEAPONSCYTHERUBY = ITEMINDEX + Sprites.ITEMWEAPONSCYTHERUBY;
+	public static final int ITEMWEAPONSCYTHEEMERALD = ITEMINDEX + Sprites.ITEMWEAPONSCYTHEEMERALD;
+	public static final int ITEMWEAPONSCYTHEDARKMATTER = ITEMINDEX + Sprites.ITEMWEAPONSCYTHEDARKMATTER;
+	public static final int ITEMWEAPONSCYTHEREDMATTER = ITEMINDEX + Sprites.ITEMWEAPONSCYTHEREDMATTER;
+	//daggers
+	public static final int ITEMDUALDAGGERSTONE = ITEMINDEX + Sprites.ITEMWEAPONDAGGERSTONE;
+	public static final int ITEMDUALDAGGERIRON = ITEMINDEX + Sprites.ITEMWEAPONDAGGERIRON;
+	public static final int ITEMDUALDAGGERGOLD = ITEMINDEX + Sprites.ITEMWEAPONDAGGERGOLD;
+	public static final int ITEMDUALDAGGERDIAMOND = ITEMINDEX + Sprites.ITEMWEAPONDAGGERDIAMOND;
+	public static final int ITEMDUALDAGGERENDER = ITEMINDEX + Sprites.ITEMWEAPONDAGGERENDER;
+	//stafs
+	public static final int ITEMSTAFFWATER = ITEMINDEX + Sprites.ITEMSTAFFWATER;
+	public static final int ITEMSTAFFFIRE = ITEMINDEX + Sprites.ITEMSTAFFFIRE;
+	public static final int ITEMSTAFFEARTH = ITEMINDEX + Sprites.ITEMSTAFFEARTH;
+	public static final int ITEMSTAFFBLOOD = ITEMINDEX + Sprites.ITEMSTAFFBLOOD;
+	public static final int ITEMSTAFFENDER = ITEMINDEX + Sprites.ITEMSTAFFENDER;
+	public static final int ITEMSTAFFNATURE =  ITEMINDEX + Sprites.ITEMSTAFFNATURE;
+	public static final int ITEMSTAFFWIND =  ITEMINDEX + Sprites.ITEMSTAFFWIND;
+	//TOOLS
 	public static final int ITEMHOOKSHOT = ITEMINDEX + 15;
-	public static final int ITEMFIRESTAFF = ITEMINDEX + 16;
-	public static final int ITEMDUALDAGGER = ITEMINDEX + 17;
+	
 }

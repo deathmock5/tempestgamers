@@ -19,8 +19,8 @@ public class ItemHookShot extends ItemSword{
 		setMaxStackSize(1);
 		setCreativeTab(ChaosCrossover.tabsDMCC);
 		setIconIndex(5);
-		setItemName(Strings.ITEMHOOKSHOT);
-		LanguageRegistry.addName(this, Strings.ITEMHOOKSHOT);
+		//setItemName(Strings.ITEMHOOKSHOT);
+		//LanguageRegistry.addName(this, Strings.ITEMHOOKSHOT);
 		// TODO Auto-generated constructor stub
 	}
 	public String getTextureFile() {

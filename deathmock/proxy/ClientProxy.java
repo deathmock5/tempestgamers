@@ -113,6 +113,7 @@ public class ClientProxy extends CommonProxy {
 
         MinecraftForgeClient.preloadTexture(Sprites.SPRITE_SHEET_LOCATION + Sprites.BLOCK_SPRITE_SHEET);
         MinecraftForgeClient.preloadTexture(Sprites.SPRITE_SHEET_LOCATION + Sprites.ITEM_SPRITE_SHEET);
+        MinecraftForgeClient.preloadTexture(Sprites.SPRITE_SHEET_LOCATION + Sprites.Item_Staff_Sprites);
         ModItems.preloadTextures();
        // FMLClientHandler.instance().getClient().renderEngine.registerTextureFX(new TextureRedWaterFX());
        // FMLClientHandler.instance().getClient().renderEngine.registerTextureFX(new TextureRedWaterFlowFX());

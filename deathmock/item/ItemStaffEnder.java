@@ -6,9 +6,9 @@ import com.tempestgamers.deathmock.lib.Strings;
 
 import net.minecraft.item.EnumToolMaterial;
 
-public class ItemStaffWater extends ItemStaff{
-	public ItemStaffWater() {
-		super(ItemIds.ITEMSTAFFWATER, EnumToolMaterial.STONE, Strings.ITEMSTAFFWATER,Sprites.ITEMSTAFFWATER_EXP);
+public class ItemStaffEnder extends ItemStaff{
+	public ItemStaffEnder() {
+		super(ItemIds.ITEMSTAFFENDER, EnumToolMaterial.STONE, Strings.ITEMSTAFFENDER,Sprites.ITEMSTAFFENDER_EXP);
 		// TODO Auto-generated constructor stub
 	}
 }

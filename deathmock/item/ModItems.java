@@ -14,28 +14,45 @@ import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.item.EnumArmorMaterial;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemSword;
+import net.minecraft.item.ItemTool;
 import net.minecraft.src.ModLoader;
 import net.minecraftforge.common.EnumHelper;
 
 public class ModItems {
-	public final static ItemSword stonesickle = new ItemWeaponScythe();
-	public final static ItemSword waterstaff = new ItemStaffWater();
-	public final static ItemSword hookshot = new ItemHookShot();
-	public final static ItemSword firestaff = new ItemFireStaff();
-	public final static ItemSword dualdagger = new ItemDualDagger();
-	public final static ItemSword earthstaff = new ItemEarthStaff();
-	public final static ItemSword bloodstaff = new ItemBloodStaff();
+
+	//daggers
+	//public final static ItemSword dualdagger = new ItemDualDaggerStone();
+	
+	//staffs
+	public final static ItemStaff waterstaff = new ItemStaffWater();
+	public final static ItemStaff firestaff = new ItemStaffFire();
+	public final static ItemStaff earthstaff = new ItemStaffEarth();
+	public final static ItemStaff bloodstaff = new ItemStaffBlood();
+	public final static ItemStaff enderstaff = new ItemStaffEnder();
+	public final static ItemStaff naturestaff = new ItemStaffNature();
+	public final static ItemStaff windstaff = new ItemStaffWind();
+	//tools
+	//public final static ItemHookShot hookshot = new ItemHookShot();
+
 	public static void init(){
 		MaidOutfit.init();
 		HeroOutfit.init();
 		MarioOutfit.init();
-		
+		ItemScythe.init();
 		//init items
 		
 		
 		//register items
-		GameRegistry.registerItem(stonesickle, Strings.ITEMSTONESCYTHE);
+		//daggers
 		
+		//staves
+		GameRegistry.registerItem(waterstaff,Strings.ITEMSTAFFWATER);
+		GameRegistry.registerItem(firestaff,Strings.ITEMSTAFFFIRE);
+		GameRegistry.registerItem(earthstaff,Strings.ITEMSTAFFEARTH);
+		GameRegistry.registerItem(bloodstaff,Strings.ITEMSTAFFBLOOD);
+		GameRegistry.registerItem(enderstaff,Strings.ITEMSTAFFENDER);
+		GameRegistry.registerItem(naturestaff,Strings.ITEMSTAFFNATURE);
+		GameRegistry.registerItem(windstaff,Strings.ITEMSTAFFWIND);
 		initItemRecipes();
 	}
 	

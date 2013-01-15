@@ -19,6 +19,7 @@ import com.tempestgamers.deathmock.helper.AddonRedPower2;
 import com.tempestgamers.deathmock.helper.LogHelper;
 import com.tempestgamers.deathmock.item.ModItems;
 //minecraft imports
+import net.minecraft.client.Minecraft;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
@@ -43,6 +44,7 @@ import cpw.mods.fml.common.event.FMLServerStartingEvent;
 import cpw.mods.fml.common.network.NetworkMod;
 import cpw.mods.fml.common.network.NetworkRegistry;
 import cpw.mods.fml.common.registry.GameRegistry;
+import cpw.mods.fml.common.registry.LanguageRegistry;
 import cpw.mods.fml.common.registry.TickRegistry;
 //import cpw.mods.fml.relauncher.Side;
 
@@ -69,7 +71,8 @@ public class ChaosCrossover {
             serverSide = Reference.SERVER_PROXY_CLASS)
     public static CommonProxy proxy;
     public static ClientProxy client;
-    public static CreativeTabs tabsDMCC = new CreativeTabDMCC(CreativeTabs.getNextID(), Reference.MOD_ID);
+    public static CreativeTabs tabsDMCC = new CreativeTabDMCC(Reference.MOD_ID);
+    
 
     @ServerStarting
     public void serverStarting(FMLServerStartingEvent event) {
@@ -118,7 +121,8 @@ public class ChaosCrossover {
 
         // Register the GUI Handler
         NetworkRegistry.instance().registerGuiHandler(instance, proxy);
-
+        LanguageRegistry.instance().addStringLocalization("itemGroup.DMCC", "en_US", "Chaos Crossover");
+        //LogHelper.log(Level.INFO,)
         // Register the PlayerDestroyItem Handler
   //      MinecraftForge.EVENT_BUS.register(new PlayerDestroyItemHandler());
 
