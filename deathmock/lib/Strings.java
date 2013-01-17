@@ -69,4 +69,6 @@ public class Strings {
 	public static final String ITEMSTAFFENDER = "Ender Staff";
 	public static final String ITEMSTAFFNATURE = "Nature Staff";
 	public static final String ITEMSTAFFWIND = "Wind Staff";
+
+	public static final String ITEMHOOKSHOT = "HookShot";
 }

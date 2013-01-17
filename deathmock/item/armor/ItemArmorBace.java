@@ -15,7 +15,7 @@ import net.minecraftforge.common.ISpecialArmor;
 import net.minecraftforge.common.ISpecialArmor.ArmorProperties;
 
 public class ItemArmorBace extends ItemArmor implements ISpecialArmor {
-	
+	public static enum ItemArmorSlot {HAT,TOP,PANTS,BOOTS};
 	public ItemArmorBace(int itemid,EnumArmorMaterial material,int rindex, int type)
     {
 		//itemid, material,renderindex,armortype

@@ -14,7 +14,7 @@ public class ItemArmorMaidHat extends ItemArmorMaid {
 
 	public ItemArmorMaidHat(int itemid,int rindex) {
 		super(itemid,rindex, 0);
-		this.setIconIndex(0);
+		this.setIconIndex(Sprites.MAIDOUTFITHAT);
 		this.setItemName(MaidOutfit.outfitname + " Hat");
 		this.setCreativeTab(ChaosCrossover.tabsDMCC);
 		LanguageRegistry.addName(this, MaidOutfit.outfitname + " Hat");

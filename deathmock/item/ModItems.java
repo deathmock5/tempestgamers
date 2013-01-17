@@ -10,6 +10,7 @@ import com.tempestgamers.deathmock.lib.ItemIds;
 import com.tempestgamers.deathmock.lib.Strings;
 
 import cpw.mods.fml.common.registry.GameRegistry;
+import cpw.mods.fml.common.registry.LanguageRegistry;
 
 import net.minecraft.item.EnumArmorMaterial;
 import net.minecraft.item.Item;
@@ -32,17 +33,19 @@ public class ModItems {
 	public final static ItemStaff naturestaff = new ItemStaffNature();
 	public final static ItemStaff windstaff = new ItemStaffWind();
 	//tools
-	//public final static ItemHookShot hookshot = new ItemHookShot();
+	public final static ItemHookShot hookshot = new ItemHookShot();
 
 	public static void init(){
 		MaidOutfit.init();
 		HeroOutfit.init();
 		MarioOutfit.init();
 		ItemScythe.init();
+		ItemDualDagger.init();
 		//init items
 		
 		
 		//register items
+		GameRegistry.registerItem(hookshot, "HookShot");
 		//daggers
 		
 		//staves

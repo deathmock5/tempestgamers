@@ -22,11 +22,6 @@ public class Sprites {
 	public static final int SILVERBLOCK = 3;
 	
 	//the id in the spritesheed for the item
-	//maid outfit
-	public static final int MAIDOUTFITHAT = 80;
-	public static final int MAIDOUTFITTOP = 81;
-	public static final int MAIDOUTFITPANTS = 82;
-	public static final int MAIDOUTFITBOOTS = 83;
 	//scythes
 	public static final int ITEMWEAPONSCYTHESTONE = 0;
 	public static final int ITEMWEAPONSCYTHEMARBLE = 1;
@@ -42,11 +37,6 @@ public class Sprites {
 	public static final int ITEMWEAPONSCYTHEDARKMATTER = 11;
 	public static final int ITEMWEAPONSCYTHEREDMATTER = 12;
 	//unused.9-15
-	//hero outfit
-	public static final int HEROOUTFITHAT = 96;
-	public static final int HEROOUTFITTOP = 97;
-	public static final int HEROOUTFITPANTS = 98;
-	public static final int HEROOUTFITBOOTS = 99;
 	//daggers
 	public static final int ITEMWEAPONDAGGERSTONE = 16;
 	public static final int ITEMWEAPONDAGGERMARBLE = 17;
@@ -61,23 +51,30 @@ public class Sprites {
 	public static final int ITEMWEAPONDAGGEREMERALD = 26;
 	public static final int ITEMWEAPONDAGGERDARKMATTER = 27;
 	public static final int ITEMWEAPONDAGGERREDMATTER = 28;
-	//unused 25-31
+	//STAFFS
+	public static final int ITEMSTAFFWOOD = 48;
+	public static final int ITEMSTAFFWATER = 49;
+	public static final int ITEMSTAFFFIRE =  50;
+	public static final int ITEMSTAFFNATURE = 51;
+	public static final int ITEMSTAFFBLOOD = 52;
+	public static final int ITEMSTAFFENDER = 53;
+	public static final int ITEMSTAFFEARTH = 54;
+	public static final int ITEMSTAFFWIND = 55;
+	//maid outfit
+	public static final int MAIDOUTFITHAT = 80;
+	public static final int MAIDOUTFITTOP = 81;
+	public static final int MAIDOUTFITPANTS = 82;
+	public static final int MAIDOUTFITBOOTS = 83;
+	//hero outfit
+	public static final int HEROOUTFITHAT = 96;
+	public static final int HEROOUTFITTOP = 97;
+	public static final int HEROOUTFITPANTS = 98;
+	public static final int HEROOUTFITBOOTS = 99;
 	//mario outfit
 	public static final int MARIOOUTFITHAT = 112;
 	public static final int MARIOOUTFITTOP = 113;
 	public static final int MARIOOUTFITPANTS = 114;
 	public static final int MARIOOUTFITBOOTS = 115;
-	
-	//STAFFS
-	public static final int ITEMSTAFFWOOD = 16;
-	public static final int ITEMSTAFFWATER = 17;
-	public static final int ITEMSTAFFFIRE =  18	;
-	public static final int ITEMSTAFFNATURE = 19;
-	public static final int ITEMSTAFFBLOOD = 20	;
-	public static final int ITEMSTAFFENDER = 21	;
-	public static final int ITEMSTAFFEARTH = 22 ;
-	public static final int ITEMSTAFFWIND = 23  ;
-	
 	
 	public static final int[][] ITEMSTAFFWATER_EXP = 	setupSprites4x4(0);
 	public static final int[][] ITEMSTAFFFIRE_EXP = 	setupSprites4x4(4);
@@ -96,6 +93,7 @@ public class Sprites {
 	public static final String Mario_Outfit_2 = "mario_2.png";
 	public static final String Gwolf_Outfit_1 = "gwolf_1.png";
 	public static final String Gwolf__Outfit_2 = "gwolf_2.png";
+	public static final String PARTICLETEXTURES = "particles.png";
 	private static int[][] setupSprites4x4(int initialdex)
 	{
 		int[][] returnvar = new int[4][4];

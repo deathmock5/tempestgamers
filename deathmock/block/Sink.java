@@ -5,6 +5,7 @@ import com.tempestgamers.deathmock.lib.Strings;
 import com.tempestgamers.deathmock.proxy.CommonProxy;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
+import net.minecraft.client.particle.EntityDropParticleFX;
 import net.minecraft.entity.EntityLiving;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
@@ -25,6 +26,7 @@ import com.tempestgamers.deathmock.tileentity.TileSink;
 import net.minecraftforge.liquids.ILiquidTank;
 import net.minecraftforge.liquids.LiquidTank;
 
+import cpw.mods.fml.client.FMLClientHandler;
 import cpw.mods.fml.common.registry.LanguageRegistry;
 
 import buildcraft.api.core.Position;
@@ -98,6 +100,7 @@ public class Sink extends DMCCBLOCK implements ILiquidTank {
 
     public boolean onBlockActivated(World world, int x, int y, int z, EntityPlayer player, int par6, float par7, float par8, float par9) {
     	super.onBlockActivated(world, x, y, z, player, par6, par7, par8, par9);
+    	FMLClientHandler.instance().getClient().effectRenderer.addEffect(new EntityDropParticleFX(world, x + 0.5, y + 0.7, z + 0.5,Material.water));
     	ItemStack current = player.inventory.getCurrentItem();
     	if(current != null){
     		LiquidStack liquid = LiquidContainerRegistry.getLiquidForFilledItem(current);
@@ -109,6 +112,7 @@ public class Sink extends DMCCBLOCK implements ILiquidTank {
     			//ok we got an somthing. my be a container may not be. may be already filled.
     			ItemStack filled = LiquidContainerRegistry.fillLiquidContainer(water, current);
     			if (water != null && filled != null){
+    				
     				if (filled.stackSize > 1) {
     					if (!player.inventory.addItemStackToInventory(filled))
     						return false;
