@@ -7,7 +7,7 @@ import com.tempestgamers.deathmock.client.model.TileSinkModel;
 import com.tempestgamers.deathmock.tileentity.TileSink;
 
 /**
- * RenderCalcinator
+ * RenderTileSink
  * 
  * Renders the Calcinator in game as a TESR (Tile Entity Special Render)
  * 
