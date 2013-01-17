@@ -7,9 +7,9 @@ import net.minecraft.tileentity.TileEntity;
 import com.tempestgamers.deathmock.lib.Strings;
 
 /**
- * TileEE
+ * TileDMCC
  * 
- * General tile entity for EE3 related tile entities
+ * General tile entity for EE3 related tile entities, Modified.
  * 
  * @author pahimar
  * @license Lesser GNU Public License v3 (http://www.gnu.org/licenses/lgpl.html)
