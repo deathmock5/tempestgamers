@@ -1,7 +1,7 @@
-tempestgamers
+ChaosCrossoverMod
 =============
 
-ChaosCrossoverMod
+Tempestgamers.com
 
 This Is a mod for Minecraft that adds a large amount of stupid items in.
 
